@@ -43,3 +43,19 @@ The default shortcut is Alt+Shift+V. You can change this in the `manifest.json` 
     "description": "Paste saved text"
   }
 }
+```
+
+3.Modify the "default" value to your preferred shortcut. For example, to use Left Shift + Left Alt:
+```json
+"suggested_key": {
+  "default": "Shift+Alt"
+}
+```
+Save the file and reload the extension in Chrome.
+Note: Chrome may not recognize "Left Shift" or "Left Alt" specifically. The shortcut will apply to both left and right modifier keys.
+Contributing
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+This README provides a comprehensive overview of your project, including installation instructions, usage guide, and how to customize the shortcut.
+
+Remember to update the README if you make any significant changes to your extension or its functionality.
