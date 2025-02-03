@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Text Saver and Paster",
+  "version": "1.0",
+  "description": "Save text and paste it with Alt+Shift",
+  "permissions": ["storage", "activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "commands": {
+    "paste-saved-text": {
+      "suggested_key": {
+        "default": "Alt+Shift+V"
+      },
+      "description": "Paste saved text"
+    }
+  }
+}
