@@ -8,6 +8,7 @@ HKeyQuickPaste is a Chrome extension that allows you to save text snippets and p
 
 - Save multiple text snippets for easy access
 - Paste saved text with a customizable hotkey (default: Alt+Shift+V)
+- Use Left Alt , Left Shift
 - Works seamlessly across all websites
 - Syncs your snippets across devices using Chrome's storage API
 - User-friendly interface for managing your text library
